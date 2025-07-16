@@ -35,26 +35,44 @@ This project builds a scalable data warehouse to analyze EV charging patterns, s
 
 ev-charging-data-warehouse/
 
-ev-charging-data-warehouse/
-├── src/                  # Source code for data processing and analysis
-│ ├── data_sources/     # Integrations for collecting data from various APIs and sources
-│ ├── etl/              # Modules for Extract, Transform, and Load (ETL) processes
-│ ├── database/         # Code related to Snowflake database connection, schema, and interactions
-│ ├── analytics/        # Scripts for Key Performance Indicator (KPI) calculations and data analysis
-│ └── visualization/    # Components for dashboard development and reporting
-├── config/               # Configuration files for different environments and services
-├── sql/                  # SQL scripts for database operations and queries
-│ ├── ddl/              # Data Definition Language (DDL) scripts for schema creation
-│ ├── dml/              # Data Manipulation Language (DML) scripts for data insertion/updates
-│ └── analytics/        # SQL queries specifically for analytical purposes
-├── tests/                # Unit and integration tests to ensure code quality and data integrity
-├── docs/                 # Project documentation, including design documents, API specs, etc.
-├── notebooks/            # Jupyter notebooks for data exploration, prototyping, and ad-hoc analysis
-├── data/                 # Local storage for various data states
-│ ├── raw/              # Unprocessed data directly from source systems
-│ ├── processed/        # Cleaned, transformed, and ready-to-use data
-│ └── external/         # Third-party datasets or external reference data
-└── logs/                 # Application logs for monitoring and debugging
+├── src/
+
+│ ├── data_sources/ # API integrations and data collection
+
+│ ├── etl/ # Extract, Transform, Load processes
+
+│ ├── database/ # Snowflake connection and schema
+
+│ ├── analytics/ # KPI calculations and analysis
+
+│ └── visualization/ # Dashboard and reporting
+
+├── config/ # Configuration files
+
+├── sql/ # SQL scripts for database operations
+
+│ ├── ddl/ # Data Definition Language
+
+│ ├── dml/ # Data Manipulation Language
+
+│ └── analytics/ # Analytical queries
+
+├── tests/ # Unit and integration tests
+
+├── docs/ # Project documentation
+
+├── notebooks/ # Jupyter notebooks for exploration
+
+├── data/ # Local data storage
+
+│ ├── raw/ # Unprocessed data
+
+│ ├── processed/ # Cleaned data
+
+│ └── external/ # Third-party datasets
+
+└── logs/ # Application logs
+
 
 
 ## Getting Started
