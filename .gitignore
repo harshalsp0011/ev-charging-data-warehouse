@@ -182,30 +182,36 @@ cython_debug/
 
 
 
-# Project-specific
-config/secrets.ini
+# ──────────────────────────────────────────────
+# Project-specific ignores for EV Charging DW
+# ──────────────────────────────────────────────
+
+# Environment / secrets
 .env
+config/secrets.ini
+
+# Logs
 *.log
 logs/
+airflow/logs/
+
+# Local data (raw & processed)
 data/raw/
 data/processed/
 data/external/
 
-# Snowflake
+# Snowflake local cache
 .snowflake/
 
-# Airflow
-airflow/logs/
+# Airflow compiled files
 airflow/dags/__pycache__/
 airflow/plugins/__pycache__/
 
-# Jupyter Notebook checkpoints
+# Jupyter
 .ipynb_checkpoints/
 
-# IDE
+# IDE / OS artifacts
 .vscode/
 .idea/
-
-# OS
 .DS_Store
 Thumbs.db
