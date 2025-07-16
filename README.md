@@ -36,42 +36,25 @@ This project builds a scalable data warehouse to analyze EV charging patterns, s
 ev-charging-data-warehouse/
 
 ├── src/
-
 │ ├── data_sources/ # API integrations and data collection
-
 │ ├── etl/ # Extract, Transform, Load processes
-
 │ ├── database/ # Snowflake connection and schema
-
 │ ├── analytics/ # KPI calculations and analysis
-
 │ └── visualization/ # Dashboard and reporting
-
 ├── config/ # Configuration files
-
 ├── sql/ # SQL scripts for database operations
-
 │ ├── ddl/ # Data Definition Language
-
 │ ├── dml/ # Data Manipulation Language
-
 │ └── analytics/ # Analytical queries
-
 ├── tests/ # Unit and integration tests
-
 ├── docs/ # Project documentation
-
 ├── notebooks/ # Jupyter notebooks for exploration
-
 ├── data/ # Local data storage
-
 │ ├── raw/ # Unprocessed data
-
 │ ├── processed/ # Cleaned data
-
 │ └── external/ # Third-party datasets
-
 └── logs/ # Application logs
+
 
 
 
