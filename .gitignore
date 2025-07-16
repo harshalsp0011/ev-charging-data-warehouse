@@ -179,3 +179,33 @@ cython_debug/
 #  refer to https://docs.cursor.com/context/ignore-files
 .cursorignore
 .cursorindexingignore
+
+
+
+# Project-specific
+config/secrets.ini
+.env
+*.log
+logs/
+data/raw/
+data/processed/
+data/external/
+
+# Snowflake
+.snowflake/
+
+# Airflow
+airflow/logs/
+airflow/dags/__pycache__/
+airflow/plugins/__pycache__/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
