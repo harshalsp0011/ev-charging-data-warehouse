@@ -34,6 +34,7 @@ This project builds a scalable data warehouse to analyze EV charging patterns, s
 ## Project Structure
 
 ev-charging-data-warehouse/
+
 ├── src/
 │ ├── data_sources/ # API integrations and data collection
 │ ├── etl/ # Extract, Transform, Load processes
