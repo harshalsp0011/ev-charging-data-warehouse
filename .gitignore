@@ -215,3 +215,4 @@ airflow/plugins/__pycache__/
 .idea/
 .DS_Store
 Thumbs.db
+.DS_Store
