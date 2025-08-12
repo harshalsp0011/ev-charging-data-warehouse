@@ -1,0 +1,34 @@
+EV Charging Dataset - Data Quality Report
+==================================================
+Dataset Shape: 1320 rows, 20 columns
+Analysis Date: 2025-08-07 17:04:13
+
+Columns and Data Types:
+- User ID: object
+- Vehicle Model: object
+- Battery Capacity (kWh): float64
+- Charging Station ID: object
+- Charging Station Location: object
+- Charging Start Time: object
+- Charging End Time: object
+- Energy Consumed (kWh): float64
+- Charging Duration (hours): float64
+- Charging Rate (kW): float64
+- Charging Cost (USD): float64
+- Time of Day: object
+- Day of Week: object
+- State of Charge (Start %): float64
+- State of Charge (End %): float64
+- Distance Driven (since last charge) (km): float64
+- Temperature (°C): float64
+- Vehicle Age (years): float64
+- Charger Type: object
+- User Type: object
+
+Missing Values:
+- Energy Consumed (kWh): 66 missing values
+- Charging Rate (kW): 66 missing values
+- Distance Driven (since last charge) (km): 66 missing values
+
+Data Cleaning Tasks:
+- Handle missing values in Energy Consumed (kWh)

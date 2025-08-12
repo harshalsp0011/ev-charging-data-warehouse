@@ -1,0 +1,4 @@
+city,temp,feels_like,humidity,pressure,weather_main,weather_desc,wind_speed,clouds_all
+San Francisco,20.16,20.14,73,1016,Clouds,scattered clouds,7.72,40
+New York,25.94,25.69,42,1025,Clear,clear sky,4.63,0
+Chicago,32.5,35.84,52,1017,Clouds,broken clouds,4.12,75
