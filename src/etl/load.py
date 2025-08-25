@@ -3,7 +3,7 @@ import sys
 sys.path.append(str(Path(__file__).parent.parent))
 from database.snowflake_connector import get_connection
 
-RAW_STAGE   = '@RAW_DATA.ext_stage'
+RAW_STAGE = '@RAW_DATA.EXT_STAGE'
 PROCESSED   = Path('data/processed')
 FILES = {
     'ev_sessions':   PROCESSED / 'ev_sessions_transformed.csv',
