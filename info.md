@@ -42,24 +42,43 @@ This project builds a scalable data warehouse to analyze EV charging patterns, s
 ## Project Structure
 
 ev-charging-data-warehouse/
+
 ├── src/
+
 │ ├── data_sources/ # API integrations (NREL, OpenWeatherMap)
+
 │ ├── etl/ # Extract, Transform, Load scripts
+
 │ ├── database/ # Snowflake connection utilities
+
 │ ├── analytics/ # KPI calculations and analysis
+
 │ └── visualization/ # Streamlit dashboard code
+
 ├── config/ # Configuration files (.env templates)
+
 ├── sql/
+
 │ ├── ddl/ # Schema creation scripts
+
 │ ├── dml/ # Data manipulation scripts
+
 │ └── analytics/ # Analytical queries
+
 ├── tests/ # Unit and integration tests
+
 ├── docs/ # Project documentation
+
 ├── notebooks/ # Jupyter notebooks for exploration
+
 ├── data/
+
 │ ├── raw/ # Downloaded CSV/JSON files
+
 │ ├── external/ # Reference datasets (Kaggle)
+
 │ └── processed/ # Transformed CSVs for loading
+
 └── logs/ # Application and ETL logs
 
 
