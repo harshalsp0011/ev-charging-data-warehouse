@@ -1,7 +1,7 @@
 EV Charging Dataset - Data Quality Report
 ==================================================
 Dataset Shape: 1320 rows, 22 columns
-Analysis Date: 2026-01-30 20:34:06
+Analysis Date: 2026-01-30 20:54:28
 
 Columns and Data Types:
 - User ID: object
