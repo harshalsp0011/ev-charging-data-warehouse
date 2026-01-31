@@ -1,7 +1,7 @@
 EV Charging Dataset - Data Quality Report
 ==================================================
-Dataset Shape: 1320 rows, 20 columns
-Analysis Date: 2025-08-24 15:08:37
+Dataset Shape: 1320 rows, 22 columns
+Analysis Date: 2026-01-30 20:34:06
 
 Columns and Data Types:
 - User ID: object
@@ -24,6 +24,8 @@ Columns and Data Types:
 - Vehicle Age (years): float64
 - Charger Type: object
 - User Type: object
+- start_dt: datetime64[ns]
+- end_dt: datetime64[ns]
 
 Missing Values:
 - Energy Consumed (kWh): 66 missing values
@@ -31,4 +33,6 @@ Missing Values:
 - Distance Driven (since last charge) (km): 66 missing values
 
 Data Cleaning Tasks:
-- Handle missing values in Energy Consumed (kWh)
+- Handle 198 missing values
+- Fix invalid State of Charge values
+- Investigate sessions where end SoC < start SoC
